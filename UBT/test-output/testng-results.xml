@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-06T19:03:58 IST" name="Default suite" finished-at="2024-07-06T20:00:06 IST" duration-ms="3367857">
+  <suite started-at="2024-07-14T11:44:08 IST" name="Default suite" finished-at="2024-07-15T11:35:48 IST" duration-ms="85900100">
     <groups>
     </groups>
-    <test started-at="2024-07-06T19:03:58 IST" name="Default test" finished-at="2024-07-06T20:00:06 IST" duration-ms="3367857">
+    <test started-at="2024-07-14T11:44:08 IST" name="Default test" finished-at="2024-07-15T11:35:48 IST" duration-ms="85900100">
       <class name="test_Cases.Find_Public_Link">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:test_Cases.Find_Public_Link@2d7275fc]" started-at="2024-07-06T19:03:58 IST" name="setUp" finished-at="2024-07-06T19:04:32 IST" duration-ms="33699" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_Cases.Find_Public_Link@6743e411]" started-at="2024-07-14T11:44:08 IST" name="setUp" finished-at="2024-07-14T11:44:15 IST" duration-ms="6703" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Run()[pri:0, instance:test_Cases.Find_Public_Link@2d7275fc]" started-at="2024-07-06T19:04:32 IST" name="Run" finished-at="2024-07-06T20:00:06 IST" duration-ms="3334114" status="PASS">
+        <test-method signature="Run()[pri:0, instance:test_Cases.Find_Public_Link@6743e411]" started-at="2024-07-14T11:44:15 IST" name="Run" finished-at="2024-07-15T11:35:48 IST" duration-ms="85893375" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Run -->
