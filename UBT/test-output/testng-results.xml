@@ -1,21 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-14T11:44:08 IST" name="Default suite" finished-at="2024-07-15T11:35:48 IST" duration-ms="85900100">
+  <suite started-at="2024-07-19T15:56:11 IST" name="Default suite" finished-at="2024-07-19T15:56:23 IST" duration-ms="12543">
     <groups>
     </groups>
-    <test started-at="2024-07-14T11:44:08 IST" name="Default test" finished-at="2024-07-15T11:35:48 IST" duration-ms="85900100">
-      <class name="test_Cases.Find_Public_Link">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:test_Cases.Find_Public_Link@6743e411]" started-at="2024-07-14T11:44:08 IST" name="setUp" finished-at="2024-07-14T11:44:15 IST" duration-ms="6703" status="PASS">
+    <test started-at="2024-07-19T15:56:11 IST" name="Default test" finished-at="2024-07-19T15:56:23 IST" duration-ms="12543">
+      <class name="test_Cases.Load_Time_checker">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_Cases.Load_Time_checker@179ece50]" started-at="2024-07-19T15:56:11 IST" name="setUp" finished-at="2024-07-19T15:56:17 IST" duration-ms="6426" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Run()[pri:0, instance:test_Cases.Find_Public_Link@6743e411]" started-at="2024-07-14T11:44:15 IST" name="Run" finished-at="2024-07-15T11:35:48 IST" duration-ms="85893375" status="PASS">
+        <test-method signature="testPageLoadTime(java.lang.String)[pri:0, instance:test_Cases.Load_Time_checker@179ece50]" started-at="2024-07-19T15:56:17 IST" name="testPageLoadTime" data-provider="urls" finished-at="2024-07-19T15:56:19 IST" duration-ms="2049" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.upstatebeertourist.com/]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Run -->
-      </class> <!-- test_Cases.Find_Public_Link -->
+        </test-method> <!-- testPageLoadTime -->
+        <test-method signature="testPageLoadTime(java.lang.String)[pri:0, instance:test_Cases.Load_Time_checker@179ece50]" started-at="2024-07-19T15:56:19 IST" name="testPageLoadTime" data-provider="urls" finished-at="2024-07-19T15:56:21 IST" duration-ms="2260" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.upstatebeertourist.com/events]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPageLoadTime -->
+        <test-method signature="testPageLoadTime(java.lang.String)[pri:0, instance:test_Cases.Load_Time_checker@179ece50]" started-at="2024-07-19T15:56:21 IST" name="testPageLoadTime" data-provider="urls" finished-at="2024-07-19T15:56:23 IST" duration-ms="1787" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.upstatebeertourist.com/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPageLoadTime -->
+      </class> <!-- test_Cases.Load_Time_checker -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

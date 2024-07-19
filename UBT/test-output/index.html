@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\archa\AppData\Local\Temp\testng-eclipse-1163754731\testng-customsuite.xml</span>
+                    <span>C:\Users\archa\AppData\Local\Temp\testng-eclipse--153764317\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,7 +104,17 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="test_Cases.Find_Public_Link" class="method navigator-link" hash-for-method="Run">Run</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="test_Cases.Load_Time_checker" class="method navigator-link" hash-for-method="testPageLoadTime(https://www.upstatebeertourist.com/)">testPageLoadTime(https://www.upstatebeertourist.com/)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test_Cases.Load_Time_checker" class="method navigator-link" hash-for-method="testPageLoadTime(https://www.upstatebeertourist.com/login)">testPageLoadTime(https://www.upstatebeertourist.com/login)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test_Cases.Load_Time_checker" class="method navigator-link" hash-for-method="testPageLoadTime(https://www.upstatebeertourist.com/events)">testPageLoadTime(https://www.upstatebeertourist.com/events)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -122,14 +132,31 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">test_Cases.Find_Public_Link</span>
+              <span class="class-name">test_Cases.Load_Time_checker</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="Run">
-                  </a> <!-- Run -->
-                  <span class="method-name">Run</span>
+                  <a name="testPageLoadTime(https://www.upstatebeertourist.com/)">
+                  </a> <!-- testPageLoadTime(https://www.upstatebeertourist.com/) -->
+                  <span class="method-name">testPageLoadTime</span>
+                  <span class="parameters">(https://www.upstatebeertourist.com/)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPageLoadTime(https://www.upstatebeertourist.com/login)">
+                  </a> <!-- testPageLoadTime(https://www.upstatebeertourist.com/login) -->
+                  <span class="method-name">testPageLoadTime</span>
+                  <span class="parameters">(https://www.upstatebeertourist.com/login)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPageLoadTime(https://www.upstatebeertourist.com/events)">
+                  </a> <!-- testPageLoadTime(https://www.upstatebeertourist.com/events) -->
+                  <span class="method-name">testPageLoadTime</span>
+                  <span class="parameters">(https://www.upstatebeertourist.com/events)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -137,7 +164,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\archa\AppData\Local\Temp\testng-eclipse-1163754731\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\archa\AppData\Local\Temp\testng-eclipse--153764317\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -146,7 +173,7 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;test_Cases.Find_Public_Link&quot;/&gt;
+      &lt;class name=&quot;test_Cases.Load_Time_checker&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -186,16 +213,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'Run')
-data.setCell(0, 2, 'test_Cases.Find_Public_Link')
-data.setCell(0, 3, 85893375);
+data.setCell(0, 1, 'testPageLoadTime')
+data.setCell(0, 2, 'test_Cases.Load_Time_checker')
+data.setCell(0, 3, 2260);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testPageLoadTime')
+data.setCell(1, 2, 'test_Cases.Load_Time_checker')
+data.setCell(1, 3, 2049);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testPageLoadTime')
+data.setCell(2, 2, 'test_Cases.Load_Time_checker')
+data.setCell(2, 3, 1787);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 23 hours</span>
+              <span class="suite-total-time">Total running time: 6 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -221,14 +256,22 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">test_Cases.Find_Public_Link</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">test_Cases.Load_Time_checker</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">Run</span>
-                <span class="method-start">6709 ms</span>
+                <span class="method-name">testPageLoadTime(https://www.upstatebeertourist.com/)</span>
+                <span class="method-start">6432 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testPageLoadTime(https://www.upstatebeertourist.com/events)</span>
+                <span class="method-start">8483 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testPageLoadTime(https://www.upstatebeertourist.com/login)</span>
+                <span class="method-start">10744 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
