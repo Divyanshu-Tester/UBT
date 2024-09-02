@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test_Cases.Load_Time_checker">
+      <class name="test_Cases.Find_Map_Error">
         <methods>
-          <include name="testPageLoadTime"/>
           <include name="setUp"/>
+          <include name="testApiCall"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- test_Cases.Load_Time_checker -->
+      </class> <!-- test_Cases.Find_Map_Error -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
